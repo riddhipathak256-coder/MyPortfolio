@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background: #EB5757;
+background: -webkit-linear-gradient(to right, #000000, #EB5757);  
+background: linear-gradient(to right, #000000, #EB5757); 
+}
+
+.container{
+    color: #d2c5c5;
+    font-family: cursive;
+    font-weight: 500;
+}
+   /* navbar css  */
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color:rgba(240, 112, 112, 0.459);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+  
+.nav-link{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   padding-right: 24px;
+}
+.nav-link li{
+  list-style: none;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #d2c5c5;
+    font-size: 18px;
+}
+
+.nav-link a:hover {
+    font-size: 20px;
+    color: pink;
+    cursor: pointer;
+}
+
+/* min-container */
+
+.min-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.min-container h1{
+    font-size:  35px;
+    font-family: cursive;
+    padding-left: 10px;
+}
+ 
+.min-container img{
+    height: 350px;
+    width: 100%;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+   cursor: pointer;
+   object-fit: cover;
+}
+
+.btn{
+    padding-left: 35px;
+}
+
+
+button{
+    padding: 18px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: cursive;
+}
+ button:hover {
+   cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+ }
+   
+#download{
+    background-color: #2c2a2a;
+    color: aliceblue;
+}
+#git{
+    background-color: #d2c5c5;
+    margin-left: 12px;
+}
